@@ -6,9 +6,9 @@ public class Class2 {
 
     public static void main (String[] args) {
 
-        private String priVar = "Private variable";
+       // private String priVar = "Private variable";
 
-        //Class2 = new Class2();
-        System.out.println(priVar);
+        Class2 C2 = new Class2();
+        System.out.println(C2.priVar);
     }
 }
